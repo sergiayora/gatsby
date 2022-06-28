@@ -66,7 +66,7 @@ export default class GatsbyCacheLmdb {
   }
 
   async get<T = unknown>(key): Promise<T | undefined> {
-    return this.getDb().get(key)
+    return new Promise(() => undefined)//this.getDb().get(key)
   }
 
   async set<T>(key: string, value: T): Promise<T | undefined> {
