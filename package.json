@@ -152,5 +152,6 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "name": "gatsby"
 }
